@@ -1,0 +1,15 @@
+<!-- webpack: Before we used to have to make separate files and then load them onto the html separately on their separate script tags. Now it has evolved into module loading systems. 
+So beforehand we install Node.JS, then npm init to get a package.json going and then install webpack. Then npm install -g webpack. Then create webpack.config.js, and inside can be a sample start-up webpack. If it's production, if so then we'll run minification, and we won't do source-mapping, if it's not production, then we'll consider it debugging mode and we'll do inline sourcemaps. Our entry point is, in this case, ./js/scripts.js, this is where we're starting off. Our output is the /js folder.
+
+
+
+***Excerpt of advice from YouTube: The easiest way to set up your project is to make a directory tree structure the way it's displayed on his sublime text editor.  If you can't make out the structure, do this:  create your project folder; inside the project folder create a 'src' folder; inside the 'src' folder, create a 'js' folder.  You will now create four files.  Create two empty files,  'package.json' and a 'webpack.config.js', and place them at the top level of your project folder.  Create another empty file, 'index.html' and put it inside your 'src' folder.   Create the last file, 'client.js' and place it inside 'js' folder.
+
+Now advance the video to 3:04 and simply type what you see into your 'client.js' file.  As for the contents of the other three files, you can go to the github repository he listed in the  comments under the video.  Specifically, you will need to access the '1-basic-react' folder to get the contents of each the other three files.  
+
+After you have set up your folders and copied the files, you run 'npm install', then 'webpack',  and the rest of the folders and files will be automatically installed.  At this point you can advance to '2:38' in  the video and continue following along.  Hope this helps you and anyone else who might have the same question.﻿***-->
+
+
+<!-- the contents in webpack.config.js are from https://github.com/learncodeacademy/react-js-tutorials/blob/master/1-basic-react/webpack.config.js
+the contents from package.json are from https://github.com/learncodeacademy/react-js-tutorials/blob/master/1-basic-react/package.json, the only thing I changed was the name, to "reactivation", for my own work-->
+<!
